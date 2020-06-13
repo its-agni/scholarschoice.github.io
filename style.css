@@ -1,0 +1,67 @@
+body {
+	background-image: url(home1.jpg);
+	background-size: cover;
+}
+header{
+	background-color: rgb(118, 184, 148)
+}
+li{
+	color: #014621;
+	list-style: none;
+	display: inline-block;
+
+}
+h1{
+	color: #1E3629;
+	text-align: center;
+	border: solid rgba(3, 65, 24, 0.5);
+}
+p{
+	color: black;
+	background-color: rgba(47, 68, 57,0.5);
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+form{
+	color: black;
+	background-color: rgba(47, 68, 57,0.5);
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 50px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+img{
+	height: 350px;
+	width: 500px;
+	margin: 10px;
+	padding: 10px;
+	
+
+}
+.contain{
+	padding-left: 30px;
+
+}
+#teacher1{
+	float:right;
+	padding-right:50px;
+	transform: none;
+}
+#student1{
+	float:right;
+	padding-right:50px;
+	transform: none;
+}
+footer{
+		text-align: right;
+}
